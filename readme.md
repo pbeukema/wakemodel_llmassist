@@ -32,7 +32,7 @@ To train the model, ensure you have a dataset organized according to the expecte
 python traineval.py --data-dir /path/to/dataset
 ```
 
-Replace `/path/to/dataset` with the actual path to your dataset. note that the dataset can be downloaded from:
+Replace `/path/to/dataset` with the actual path to your dataset. The data used to train the model can be downloaded from [Zenodo](https://zenodo.org/records/7947694). The paper (Del Prete et. al.) referenced in the article can be found [here](https://www.semanticscholar.org/paper/Keypoints-Method-for-Recognition-of-Ship-Wake-in-by-Prete-Graziano/a38d19b5ebaa2441e1bef2af0ecf24332bd6ca5b).
 
 ### Inference
 
