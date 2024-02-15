@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-This library provides an end-to-end solution for training and inferring wake detection in satellite imagery (Sentinel-2) using deep learning. It utilizes an EfficientNet-B0 architecture adapted for keypoint detection, specifically identifying keypoints in images that represent vessel wakes. The library is structured into modular components for ease of use, including data handling, model definition, training, evaluation, and inference.
+This library provides an end-to-end solution for training and inferring wake detection in satellite imagery (Sentinel-2) using deep learning. It utilizes an EfficientNet-B0 architecture adapted for keypoint detection, specifically identifying keypoints in images that represent vessel wakes. The library is structured into modular components for ease of use, including data handling, model definition, training, evaluation, and inference. This [Medium](https://medium.com/@pbeukema/accelerating-engineering-with-llms-e83a524a5a13) post provides additional context on the creation of this repository. 
 
 ## Modules
 
@@ -32,7 +32,7 @@ To train the model, ensure you have a dataset organized according to the expecte
 python traineval.py --data-dir /path/to/dataset
 ```
 
-Replace `/path/to/dataset` with the actual path to your dataset. The data used to train the model can be downloaded from [Zenodo](https://zenodo.org/records/7947694). The paper (Del Prete et. al.) referenced in the article can be found [here](https://www.semanticscholar.org/paper/Keypoints-Method-for-Recognition-of-Ship-Wake-in-by-Prete-Graziano/a38d19b5ebaa2441e1bef2af0ecf24332bd6ca5b).
+Replace `/path/to/dataset` with the actual path to your dataset (e.g. ./ShipWakes/). The data used to train the model can be downloaded from [zenodo](https://zenodo.org/records/7947694): Roberto Del Prete. (2023). Keypoints Method for Recognition of Ship Wake Components in Sentinel-2 Images by Deep Learning [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7947694. The research paper can be found [here](https://www.semanticscholar.org/paper/Keypoints-Method-for-Recognition-of-Ship-Wake-in-by-Prete-Graziano/a38d19b5ebaa2441e1bef2af0ecf24332bd6ca5b). 
 
 ### Inference
 
