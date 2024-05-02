@@ -2,7 +2,10 @@
 
 ## TL;DR
 
-This library provides an end-to-end solution for training and inferring wake detection in satellite imagery (Sentinel-2) using deep learning. It utilizes an EfficientNet-B0 architecture adapted for keypoint detection, specifically identifying keypoints in images that represent vessel wakes. The library is structured into modular components for ease of use, including data handling, model definition, training, evaluation, and inference. This [Medium](https://medium.com/@pbeukema/accelerating-engineering-with-llms-e83a524a5a13) post provides additional context on the creation of this repository. 
+This library provides an end-to-end solution for training and inferring wake detection in satellite imagery (Sentinel-2) using deep learning. It utilizes an EfficientNet-B0 architecture adapted for keypoint detection, specifically identifying keypoints in images that represent vessel wakes. The library is structured into modular components for ease of use, including data handling, model definition, training, evaluation, and inference. This [post](https://patrickbeukema.substack.com/p/accelerating-engineering-with-llms?utm_source=profile&utm_medium=reader2) provides additional context on the creation of this repository. 
+
+Special thanks to Roberto del Prete et al, both for their research into Sentinel-2 vessel wakes and for publishing their dataset under a permissive license which made this code possible. R. Del Prete, M. D. Graziano and A. Renga, "Keypoints Method for Recognition of Ship Wake Components in Sentinel-2 Images by Deep Learning," in IEEE Geoscience and Remote Sensing Letters, vol. 20, pp. 1-5, 2023, Art no. 5002805, doi: 10.1109/LGRS.2023.3324303. https://ieeexplore.ieee.org/document/10285362 N.B. I am not affiliated with the authors or their institution. 
+
 
 ## Modules
 
